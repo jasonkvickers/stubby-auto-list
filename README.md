@@ -1,5 +1,7 @@
 <img src="http://www.stubbyui.com/images/stubby-mock.png" /><br /><br />
 Stubby Auto List<br /><br />
+Stubby Auto List is in Beta. I had the idea to create this plugin, but I know it still needs some improvements, so send me your suggestions, gripes, etc., and I will do my best to push this forward into a stable plugin that will benifit the web development community. Thanks :)
+<br /><br />
 StubbyAutoList is a jQuery plugin that provides two core functionalities:<br />
 1.	Auto-complete<br />
 2.	Multi-selection and display of selected items.<br />
