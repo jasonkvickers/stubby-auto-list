@@ -30,3 +30,5 @@ As with the list item template, the first div is just a wrapper and only the cod
 **stubby-delete-button** - StubbyAutoList will attach an onClick event to this element that allows you to remove an item that you have previously selected.
 <br /><br />
 **Initialize StubbyAutoList**
+<br /><br />
+In Progress...
