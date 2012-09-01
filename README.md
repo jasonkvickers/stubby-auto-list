@@ -9,7 +9,7 @@ What makes StubbyAutoList different is that it allows you to define a template f
 The first step in using StubbyAutoList is to define an input.<br /><br />
 `<input type="text" id="stubbyInput" class="stubbyList1"/>`
 
-**Define the template for your list items**`
+**Define the template for your list items**
 
 `<div class="stubby-list-item-template"><div class="topicListItem clearfix"><div class="list-item-left stubbyList1">`<br />
 `<img stubby-data="ProfileImage" stubby-image-path="/Images/" alt="Profile Image" width="40px" /></div>`<br />
