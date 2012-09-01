@@ -17,8 +17,8 @@ The first step in using StubbyAutoList is to define an input.<br /><br />
 `<span stubby-data="UserName"></span></div></div></div>`
 
 The important thing to understand here is that "stubby-list-item-template" is a wrapper. This means that only the code contained within this div will actually display in the template. Also, this template introduces some custom HTML attributes:<br />
-stubby-data - this attribute tells StubbyAutoList which JSON value to map to the element.
-<br />stubby-image-path - this attribute applies only to `<img />` tags and allows you to define a base path to your image folder. If you plan to feed the entire url through JSON, then just leave this attribute out.
+**stubby-data** - this attribute tells StubbyAutoList which JSON value to map to the element.
+<br />**stubby-image-path** - this attribute applies only to `<img />` tags and allows you to define a base path to your image folder. If you plan to feed the entire url through JSON, then just leave this attribute out.
 <br /><br />
 **Define the template for your display items**<br /><br />
 `<div class="stubby-display-item-template"><div class="my-display-container clearfix"><div class="display-item-left">`<br />
@@ -26,7 +26,7 @@ stubby-data - this attribute tells StubbyAutoList which JSON value to map to the
 `<div class="display-item-right"><span stubby-data="UserName"></span>`<br />
 `<a class="element-button" stubby-delete-button="true">x</a></div></div></div>`
 <br /><br />
-As with the list item template, the first div is just a wrapper and only the code contained within will be displayed. Oh, and we have another customer HTML attribute:
-stubby-delete-button - StubbyAutoList will attach an onClick event to this element that allows you to remove an item that you have previously selected.
+As with the list item template, the first div is just a wrapper and only the code contained within will be displayed. Oh, and we have another customer HTML attribute:<br />
+**stubby-delete-button** - StubbyAutoList will attach an onClick event to this element that allows you to remove an item that you have previously selected.
 <br /><br />
 **Initialize StubbyAutoList**
