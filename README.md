@@ -1,2 +1,1 @@
-stubby-auto-list
-================
+<img src="http://www.stubbyui.com/images/stubby-mock.png" />
