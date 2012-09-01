@@ -31,4 +31,15 @@ As with the list item template, the first div is just a wrapper and only the cod
 <br /><br />
 **Initialize StubbyAutoList**
 <br /><br />
-In Progress...
+`<script type="text/javascript" src="/path/to/stubbyautolist/jquery.stubbyautolist.js"></script>`<br />
+`<script type="text/javascript">`<br />
+    `$("#stubbyInput").stubbyautolist({`<br />
+        `ajaxUrl: '/GetAjax',`<br />
+        `keyValue: 'UserName',`<br />
+        `focusClass: 'stubbyList1'`<br />
+    });
+`</script>`
+<br /><br />
+**ajaxUrl** - this is the url that you are retrieving the data from<br />
+**keyValue** - this is the "key" that you will be basing your calls off of. (ex: the PK of you db call)<br />
+**focusClass** - if you plan to use more than one Stubby List per page, you need to define a focusClass that will be unique to the list instance.
