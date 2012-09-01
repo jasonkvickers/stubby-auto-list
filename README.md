@@ -26,7 +26,7 @@ The important thing to understand here is that "stubby-list-item-template" is a 
 `<div class="display-item-right"><span stubby-data="UserName"></span>`<br />
 `<a class="element-button" stubby-delete-button="true">x</a></div></div></div>`
 <br /><br />
-As with the list item template, the first div is just a wrapper and only the code contained within will be displayed. Oh, and we have another customer HTML attribute:<br />
+As with the list item template, the first div is just a wrapper and only the code contained within will be displayed. Oh, and we have another custom HTML attribute:<br />
 **stubby-delete-button** - StubbyAutoList will attach an onClick event to this element that allows you to remove an item that you have previously selected.
 <br /><br />
 **Initialize StubbyAutoList**
