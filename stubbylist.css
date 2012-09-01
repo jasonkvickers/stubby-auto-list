@@ -1,0 +1,65 @@
+﻿/*** Stubby Styles ***/
+.element-button {
+    cursor: pointer;
+}
+
+#stubbyInput-stubby-list-results-list {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    width: 300px;
+    background-color: #e4e4e4;
+    border: solid 1px rgba(92, 92, 92, 0.36);
+}
+
+    #stubbyInput-stubby-list-results-list li {
+        list-style: none;
+        margin: 1px;
+        padding: 5px;
+        border-bottom: solid 1px rgba(92, 92, 92, 0.36);
+    }
+
+    #stubbyInput-stubby-list-results-list li:hover {
+        background-color: #a6c6dd;
+    }
+
+    #stubbyInput-stubby-list-results-list li.stubby-list-last {
+        border-bottom: none;
+    }
+
+.list-item-left {
+    width: 40px;
+    float: left;
+}
+
+.list-item-right img {
+    padding: 0;
+    margin: 0;
+}
+
+.list-item-right {
+    width: 200px;
+    float: left;
+    line-height: 14px;
+    padding: 0 0 0 10px;
+}
+
+.stubby-display-item {
+    padding: 5px;
+    width: auto;
+    float: left;
+    border-radius: 5px;
+    background-color: #a6c6dd;
+    margin: 0 10px 0 0;
+}
+
+.display-item-left {
+    width: 20px;
+    float: left;
+}
+
+.display-item-right {
+    width: auto;
+    float: left;
+    padding: 0 0 0 10px;
+}
