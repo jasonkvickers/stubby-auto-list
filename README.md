@@ -16,7 +16,7 @@ The first step in using StubbyAutoList is to define an input.<br /><br />
 `<div class="list-item-right stubbyList1"><span stubby-data="FirstName"></span>&nbsp;<span stubby-data="LastName"></span>`<br /> 
 `<span stubby-data="UserName"></span></div></div></div>`
 
-`The import thing to understand here is that “stubby-list-item-template” is a wrapper. This means that only the code contained within this div will actually display in the template. Also, this template introduces some custom HTML attributes:
+The import thing to understand here is that "stubby-list-item-template" is a wrapper. This means that only the code contained within this div will actually display in the template. Also, this template introduces some custom HTML attributes:
 stubby-data - this attribute tells StubbyAutoList which JSON value to map to the element.
 stubby-image-path - this attribute applies only to `<img />` tags and allows you to define a base path to your image folder. If you plan to feed the entire url through JSON, then just leave this attribute out.
 <br /><br />
