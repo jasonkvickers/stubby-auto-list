@@ -9,12 +9,12 @@ StubbyAutoList is a jQuery plugin that provides two core functionalities:<br />
 1.	Auto-complete<br />
 2.	Multi-selection and display of selected items.<br />
 What makes StubbyAutoList different is that it allows you to define a template for both the select items in the auto complete and the data that is displayed once an element is clicked on. By taking this approach to the UI, we are able to accept any object literal and map its values to the template that you have provided. But enough talking, let’s see an example:
+<br />
+<br /><img src="http://www.stubbyui.com/images/subbydemo.png" />
 <br /><br />
 **Create a text input**<br /><br />
 The first step in using StubbyAutoList is to define an input.<br /><br />
 `<input type="text" id="stubbyInput" class="stubbyList1"/>`
-
-<br /><img src="http://www.stubbyui.com/images/subbydemo.png" /><br /><br />
 
 **Define the template for your list items**
 
