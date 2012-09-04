@@ -1,8 +1,9 @@
-﻿(function ($) {
+(function ($) {
     var stubbyautolist = function (element, options) {
         var opts = $.extend({
             ajaxUrl: '/',
             keyValue: '',
+            searchKey: '',                                              // Key to search on server-side
             displayClickedItems: true,                                  // Show clicked items
             maxClickedItems: true,                                      // Determines the max list items that can be clicked on and displayed
             listItemTemplate: $(".stubby-list-item-template"),          // Template for the list items
@@ -100,7 +101,7 @@
          * Description: retrieves data based on property ajaxUrl
          */
         var getData = function () {
-            $.getJSON(opts.ajaxUrl, { term: stubbyautolistVars.obj.val() })
+            $.getJSON(opts.ajaxUrl, { term: stubbyautolistVars.obj.val().toLowerCase(), searchKey: opts.searchKey })
             .success(function (results) {
                 stubbyautolistVars.listData = results;
 
@@ -347,7 +348,7 @@
                 }
             });
         });
-
+        
         // timeout for checking to see of the searchbox has focus
         var handleFocusOut = function() {
             stubbyautolistVars.searchList.empty();
